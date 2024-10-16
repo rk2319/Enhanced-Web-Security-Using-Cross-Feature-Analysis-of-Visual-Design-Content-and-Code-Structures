@@ -17,6 +17,7 @@ function App() {
     setReport(null);
     
     try {
+      // new server link https://backend-pxe8.onrender.com
       const response = await axios.post('https://backend-pxe8.onrender.com/scan', { url });
       setReport(response.data);
     } catch (error) {
