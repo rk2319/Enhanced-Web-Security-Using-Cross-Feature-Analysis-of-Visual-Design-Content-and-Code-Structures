@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../public/image.jpg'); /* Correct reference to public folder */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  backdrop-filter: blur(5px); /* Optional: Adds a blur effect */
+}
+
+.form-container {
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Green background */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
