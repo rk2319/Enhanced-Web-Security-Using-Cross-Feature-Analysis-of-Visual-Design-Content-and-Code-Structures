@@ -17,7 +17,7 @@ function App() {
     setReport(null);
     
     try {
-      const response = await axios.post('http://localhost:5001/scan', { url });
+      const response = await axios.post('https://backend-pxe8.onrender.com/scan', { url });
       setReport(response.data);
     } catch (error) {
       console.error("Error scanning the URL:", error.response ? error.response.data : error.message);
